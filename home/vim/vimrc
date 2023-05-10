@@ -1,0 +1,41 @@
+set hidden
+
+set cmdheight=2
+
+set updatetime=300
+
+set shortmess+=Ic
+
+set signcolumn=yes
+
+set tags=tags;
+
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
+
+autocmd BufEnter *.hsc :setlocal filetype=hs
+autocmd BufEnter *.chs :setlocal filetype=hs
+
+set swapfile
+set backup
+set writebackup
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory^=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
+set background=dark
+
+set encoding=utf-8
+scriptencoding utf-8
+set ffs=unix,dos,mac
+let $LANG='en'
+set nospell spelllang=en_us
+
+set autoread
+
+set history=1000
+set undolevels=1000
+
+set number relativenumber
+set nocursorline
