@@ -7,6 +7,7 @@
     ./mosh.nix
     ./networking.nix
     ./nix.nix
+    ./system-packages.nix
     ./users.nix
   ];
 }

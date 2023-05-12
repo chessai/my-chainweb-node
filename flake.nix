@@ -10,11 +10,15 @@
     };
 
     chainwebModule = {
-      url = "github:kadena-io/chainweb-node-nixos-module/c008ee79f8c129677476d6c777f4aebb81809f9b";
+      url = "github:kadena-io/chainweb-node-nixos-module/9ac068d1983ce55ec230be186736c0041c526b4e";
     };
 
     chainwebNode = {
       url = "github:kadena-io/chainweb-node";
+    };
+
+    chainwebNodeCompaction = {
+      url = "github:kadena-io/chainweb-node/c785deaf729968e0e8a7c7becc6761f029d7aa5b";
     };
   };
 
@@ -23,6 +27,7 @@
       home-manager,
       chainwebModule,
       chainwebNode,
+      chainwebNodeCompaction,
       self,
       ...
     }:
@@ -60,7 +65,7 @@
 
       devShell."${system}" = pkgs.mkShell {
         buildInputs = [
-          chainwebNode.packages.x86_64-linux.default
+          chainwebNodeCompaction.packages.x86_64-linux.default
         ];
       };
 
