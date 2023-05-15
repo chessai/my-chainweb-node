@@ -10,7 +10,7 @@
     };
 
     chainwebModule = {
-      url = "github:kadena-io/chainweb-node-nixos-module/9ac068d1983ce55ec230be186736c0041c526b4e";
+      url = "github:kadena-io/chainweb-node-nixos-module/65e615972d9efa2987695ef4ac664d2430fb0a30";
     };
 
     chainwebNode = {

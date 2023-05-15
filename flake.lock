@@ -201,17 +201,17 @@
         "std": "std"
       },
       "locked": {
-        "lastModified": 1683762964,
-        "narHash": "sha256-RbHHs987D4drt338+KUeur/KOSsCi8Kk8OXy+3kVyts=",
+        "lastModified": 1684164303,
+        "narHash": "sha256-R5cSaI/zeqdiBlg7gR2NLwjPh1S9h3yIf4lZfP1ECks=",
         "owner": "kadena-io",
         "repo": "chainweb-node-nixos-module",
-        "rev": "9ac068d1983ce55ec230be186736c0041c526b4e",
+        "rev": "65e615972d9efa2987695ef4ac664d2430fb0a30",
         "type": "github"
       },
       "original": {
         "owner": "kadena-io",
         "repo": "chainweb-node-nixos-module",
-        "rev": "9ac068d1983ce55ec230be186736c0041c526b4e",
+        "rev": "65e615972d9efa2987695ef4ac664d2430fb0a30",
         "type": "github"
       }
     },
